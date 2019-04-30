@@ -11,7 +11,7 @@
         android:id="@+id/tvYear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World"
+        android:text="@string/hello_world"
         android:textSize="30sp"/>
 
     <ListView
