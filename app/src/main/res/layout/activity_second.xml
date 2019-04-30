@@ -11,8 +11,14 @@
         android:id="@+id/tvYear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Hello World"
         android:textSize="30sp"/>
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvModules">
 
+    </ListView>
 
 </LinearLayout>

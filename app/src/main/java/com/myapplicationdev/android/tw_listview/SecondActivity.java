@@ -17,8 +17,8 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        lv = (ListView) this.findViewById(R.id.lvModules);
-        tvYear = (TextView) findViewById(R.id.tvYear);
+        lv = findViewById(R.id.lvModules);
+        tvYear = findViewById(R.id.tvYear);
 
         Intent i = getIntent();
         String year = i.getStringExtra("year");
